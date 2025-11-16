@@ -1,4 +1,4 @@
-# BMLP Final Project — Clustering & Classification
+# BMLP Final Project - Clustering & Classification
 
 End-to-end machine learning notebooks for unsupervised clustering and supervised classification. The project includes data loading, preprocessing, PCA + KMeans clustering, Decision Tree and Random Forest classifiers, evaluation metrics/plots, hyperparameter tuning, and persisted artifacts.
 
@@ -40,12 +40,12 @@ pip install jupyter numpy pandas scikit-learn seaborn matplotlib
 ```
 
 ## How to Run
-Option A — VS Code
+Option A - VS Code
 - Open this folder in VS Code.
 - Open `[Klasifikasi]_Submission_Akhir_BMLP_Nelson_Ahli.ipynb` or `[Clustering]_Submission_Akhir_BMLP_Nelson_Ahli.ipynb`.
 - Select a Python 3 kernel, then “Run All”.
 
-Option B — Jupyter (CLI)
+Option B - Jupyter (CLI)
 
 ```bash
 jupyter lab
