@@ -10,11 +10,11 @@ End-to-end machine learning notebooks for unsupervised clustering and supervised
 - Evaluation: Accuracy, Precision, Recall, F1-score, and confusion matrix visualizations (seaborn/matplotlib).
 - Hyperparameter tuning: `RandomizedSearchCV` for Random Forest; best estimator saved.
 - Artifacts (saved via joblib using `.h5` filenames):
-	- `decision_tree_model.h5`
-	- `explore_random_forest_classification.h5`
-	- `tuning_classification.h5`
-	- `model_clustering.h5`
-	- `PCA_model_clustering.h5`
+  - `decision_tree_model.h5`
+  - `explore_random_forest_classification.h5`
+  - `tuning_classification.h5`
+  - `model_clustering.h5`
+  - `PCA_model_clustering.h5`
 
 ## Tech Stack
 - Python 3 (tested with 3.9–3.11)
@@ -36,7 +36,7 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
 ```bash
 pip install --upgrade pip
-pip install jupyter numpy pandas scikit-learn seaborn matplotlib joblib
+pip install jupyter numpy pandas scikit-learn seaborn matplotlib
 ```
 
 ## How to Run
@@ -77,5 +77,5 @@ Notes for running:
 ```
 
 ## Notes
-- Although the artifacts use the `.h5` extension, they are saved with `joblib.dump(...)` inside the notebooks.
+- The model artifacts use the `.h5` extension for consistency with prior naming conventions, but are actually saved using `joblib.dump(...)` (not HDF5 format). This is a legacy naming choice from the notebooks.
 - Exact metrics and plots are produced inside the notebooks.
